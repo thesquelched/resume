@@ -1,0 +1,106 @@
+\documentclass[a4paper,11pt]{article}
+
+% packages
+\usepackage{latexsym}
+\usepackage[pdftex]{hyperref}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage[cm]{fullpage}
+\usepackage{parskip}
+%\usepackage[empty]{fullpage}
+
+\hypersetup{
+  colorlinks,
+  citecolor=black,
+  filecolor=black,
+  linkcolor=black,
+  urlcolor=black
+}
+\urlstyle{same}
+
+\newenvironment{pitemize}{
+\begin{itemize}
+\setlength{\itemsep}{.01in}
+\setlength{\parskip}{.01in}
+}
+{\end{itemize}}
+
+\setlength{\parindent}{0in}
+\setlength{\parskip}{0in}
+
+\pagestyle{empty}
+
+\begin{document}
+
+\Huge{\textbf{Scott Kruger}}
+\hrule
+\vspace{0.05in}
+\normalsize{310 Avondale Ave \hfill (314) 640-0882 \hfill \href{mailto:scott@chojin.org}{scott@chojin.org} \\
+Champaign, IL 61820 \hfill \href{http://chojin.org}{http://chojin.org}}
+
+\section*{\huge{Education}}
+\hrule
+\vspace{0.1in}
+\textbf{UNIVERSITY OF ILLINOIS} \hfill \textit{Urbana-Champaign, IL}
+\begin{itemize}
+\setlength{\itemsep}{0.1in}
+\item[]M.S. Astronomy \hfill \textit{Dec, 2010}
+\item[]B.S. Computer Science \hfill \textit{May, 2008} \\
+Specialization: Computational Science and Engineering
+\end{itemize}
+
+
+\section*{\huge{Experience}}
+\hrule
+\vspace{0.1in}
+\textbf{WOLFRAM RESEARCH INC} \hfill \textit{Champaign, IL} \\
+Technical Services Engineer \hfill \textit{Oct, 2010 - Present}
+\begin{pitemize}
+\item[-]Solved Mathematica programming queries from users via phone and email
+\item[-]Worked with developers to gather information about bugs and investigate workarounds
+\item[-]Focused on GPU's, Java/.NET links, C compilation, and cluster/grid computing
+\item[-]Developed internal training materials for Java/.NET links and cluster/grid computing
+\item[-]Wrote public tutorial and how-to documents for cluster/grid computing and OpenCL/CUDA
+\end{pitemize}
+\vspace{0.2in}
+\textbf{UNIVERSITY OF ILLINOIS} \hfill \textit{Urbana-Champaign, IL} \\
+Research Assistant \hfill \textit{May, 2009 - Oct, 2010}
+\begin{pitemize}
+\item[-]Identified opportunities to exploit parallelism in Discrete Spherical Harmonics Transforms
+\item[-]Implemented optimized DSHT routine on GPU using CUDA
+\end{pitemize}
+Teaching Assistant \hfill \textit{Aug, 2008 - May, 2009}
+\begin{pitemize}
+\item[-]Taught introductory astronomy course discussion sections
+\item[-]Adapted course guidelines to form weekly lesson plan
+\end{pitemize}
+Undergraduate Assistant \hfill \textit{Dec, 2006 - Aug, 2008}
+\begin{pitemize}
+\item[-]Created and maintained BOINC distributed computing project, Cosmology@Home
+\item[-]Administrated workstations/servers for astronomy research group and physics IT
+\item[-]Assembled and maintained 16-node HPC cluster running Scientific Linux
+\end{pitemize}
+
+\section*{\huge{Skills}}
+\hrule
+\vspace{0.1in}
+\textbf{Programming Languages} \\
+Proficient: C/C++, Clojure, Mathematica, CUDA \\
+Familiar: Shell (bash), Ruby, Java, FORTRAN, PHP, Perl, Python, MIPS assembly, Rails, HTML
+
+\vspace{0.1in}
+
+\textbf{Computer Skills} \\
+Linux server/workstation administration, computer assembly/maintenance
+
+\vspace{0.1in}
+
+\textbf{Language Skills} \\
+English (native), German (proficient)
+
+\section*{\huge{Projects}}
+\hrule
+\vspace{0.1in}
+\textbf{\href{http://github.com/thesquelched/clj-yahoo}{clj-yahoo}}
+ - Clojure library for accessing Yahoo API services
+
+\end{document}
