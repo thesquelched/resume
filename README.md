@@ -1,8 +1,4 @@
 Scott Kruger's Resume
 =====================
 
-Status
-------
-
-Haven't updated this in a little while.  I'll remove the notification when it's
-been updated with my Yahoo work.
+[https://www.dropbox.com/s/fnplqvzqn7sprn4/resume.pdf](Click here to view the PDF).
