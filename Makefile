@@ -3,7 +3,7 @@ PDF=resume.pdf
 
 .PHONY: clean preview
 
-all: clean preview
+all: clean pdf
 
 clean:
 	rm -f *.pdf *.aux *.log *.out
@@ -11,5 +11,7 @@ clean:
 $(PDF): $(LATEX)
 	pdflatex $(LATEX)
 
-preview: $(PDF)
+pdf: $(PDF)
+
+preview: pdf
 	xpdf $(PDF) &
