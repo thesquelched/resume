@@ -31,7 +31,7 @@
 
 \begin{document}
 
-\Huge{\textbf{Scott Kruger}}
+\Huge{\textbf{Scott Kruger}} \hfill \normalsize{(he/him)}
 \hrule
 \vspace{0.05in}
 \normalsize{
@@ -43,14 +43,45 @@
 \hrule
 \vspace{0.1in}
 
-\textbf{RACKSPACE} \hfill \textit{Remote (Austin, TX)} \\
-Software Developer III, Datastores \hfill \textit{Jan, 2015 - Present}
+\textbf{PAYPAL} \hfill \textit{Remote (St. Louis, MO)} \\
+Member of Technical Staff 2, Data Engineering \hfill \textit{Feb, 2021 - Present} \\
+Member of Technical Staff 1, Data Engineering \hfill \textit{Sep, 2016 - Feb, 2021}
 \begin{pitemize}
-    \item[-]Back-end developer on Cloud Big Data team
+    \item[-]Tech Lead, Braintree Data Engineering
+    \begin{pitemize}
+        \item[-]Led Data Engineering team as tech lead and de facto architect
+        \item[-]Ran iteration planning and served as principal point-of-contact for internal Data Lake users
+        \item[-]Held 1-on-1 meetings with engineers to foster technical and career growth
+        \item[-]Served on PayPal data solution architecture council and used expertise to impact teams across organization
+    \end{pitemize}
+    \item[-]Member of Technical Staff, Braintree Data Engineering
+    \begin{pitemize}
+        \item[-]Designed and implemented majority of the Braintree Data Lake using Spark and AWS EMR, providing near-real-time data
+        \item[-]Improved reliability, performance, cost, and governance by writing proposals, building consensus, prototyping, and implementing changes; selected projects include
+        \begin{pitemize}
+            \item[-]Data Lineage for Spark on AWS EMR, AWS Athena, and AWS Redshift
+            \item[-]Snapshot table partition management using Apache Iceberg to reduce down time by over 90%
+            \item[-]Semi-automated table backfill process from PostgreSQL to S3
+            \item[-]Validation process to compare Data Lake to source PostgreSQL databases
+        \end{pitemize}
+    \item[-]Regularly produced tech talks for team and Data Lake users
+    \item[-]Proposed, designed, and built Google API Proxy for PayPal to provide auditing and governance controls; used golang and custom protobuf compiler plugin to programmatically generate APIs instead of previous approach re-implementing using OpenAPI, resulting in vast decrease in development time
+    \end{pitemize}
+    \item[-]Member of Technical Staff, Braintree Financial Reporting
+    \begin{pitemize}
+        \item[-]Designed and implemented celery-based Python application using AWS SQS, S3, and Elasticache Redis to deliver Braintree Data to PayPal; focused on verifiability, scalability, and meeting critical SLAs
+    \end{pitemize}
+\end{pitemize}
+
+\vspace{0.2in}
+\textbf{RACKSPACE} \hfill \textit{Remote (St. Louis, MO)} \\
+Software Developer III, Datastores \hfill \textit{Jan, 2015 - Sep, 2016}
+\begin{pitemize}
+    \item[-]Back-end developer, Cloud Big Data
     \begin{pitemize}
         \item[-]Fault-tolerant Hadoop cluster provisioning on OpenStack/AWS using Flask + SQLAlchemy API
     \end{pitemize}
-\item[-]Mentored interns and developer on python, coding best practices
+\item[-]Mentored interns and developers on python, coding best practices
 \item[-]Implemented continuous delivery; reduced commit-to-prod release time from weeks to hours
 \end{pitemize}
 
@@ -113,12 +144,31 @@ Undergraduate Assistant, Physics and Astronomy \hfill \textit{Dec, 2006 - Aug, 2
 \hrule
 \vspace{0.1in}
 \textbf{Languages} \\
-Primary: Python 2/3, Java, Pig, Bash, Shell \\
-Secondary: Javascript, HTML5, Perl, some C/C++, Ruby, Clojure, Scala, Perl
+Proficient: Python, Java, Shell \\
+Competent: golang, Scala, Javascript, HTML, Ruby, C
 
 \vspace{0.1in}
 
-\textbf{Technologies/Skills} \\
-Linux, Hadoop, Oozie, Git, Subversion, Vim, jQuery, Ember.js, Flask, Jenkins, Agile/Kanban, Bison/Flex, Antlr, GNU Make
+\textbf{Technologies/Skills/Frameworks} \\
+Linux, SQL, NoSQL, Data Modeling, Spark, Hadoop, Kubernetes, Docker, Terraform, AWS Cloud, Google Cloud, Git, Jenkins, Parser Generators, Make, Gradle/Maven
+
+\vspace{0.1in}
+
+\textbf{Open Source Contributions}
+\begin{itemize}
+    \item[-]Wrote Consul backend for Zookeeper Exhibitor
+    \item[-]Pending Apache Iceberg commits to fix INT96 timestamp support
+    \item[-]3 merged changes to Apache Airflow to fix bugs and improve task failure handling
+    \item[-]Various bug reports and fixes
+\end{itemize}
+
+\vspace{0.1in}
+\textbf{Personality and Goals}
+\begin{itemize}
+    \item[-]Genuinely decent person who believes strongly in diversity and inclusion
+    \item[-]Has an intense hatred of toxic work cultures; desires and fosters a culture of openness, respect, and accountability
+    \item[-]Fully remote since 2015, but doesn't mind the occasional office visit
+    \item[-]Greatly values work/life balance; hobbies include woodworking, Battletech, and doughnuts
+\end{itemize}
 
 \end{document}
